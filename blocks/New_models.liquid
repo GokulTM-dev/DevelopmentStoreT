@@ -1,0 +1,29 @@
+<div>
+  {% if block.settings.new_models_meta %}
+    <p><strong>Name:</strong> {{ block.settings.new_models_meta.name | default: "No Name Found" }}</p>
+    <p><strong>Height:</strong> {{ block.settings.new_models_meta.height | default: "No Height Found" }}</p>
+    <p><strong>Chest:</strong> {{ block.settings.new_models_meta.chest | default: "No Chest Found" }}</p>
+  {% else %}
+    <p style="color: red;">No metaobject data found.</p>
+  {% endif %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "New_models",
+    "settings": [
+      {
+        "type": "metaobject",
+        "id": "new_models_meta",
+        "label":"New_models",
+        "metaobject_type":"new_model"
+      }
+    ],
+    "presets": [
+      {
+       "name": "New_models"
+    }
+    ]
+  }
+{% endschema %}
