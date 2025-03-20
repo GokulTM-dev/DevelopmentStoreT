@@ -1,0 +1,31 @@
+{% schema %}
+{
+    "name": "collection-banner",
+    "settings" : [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Welcome to Our Store"
+        },
+        {
+            "type":"textarea",
+            "id":"subheading",
+            "label":"Subheading",
+            "default":"Discover our latest collection"
+        }
+        
+    ]
+
+}
+
+{% endschema %}
+
+<section 
+class="custom-hero">
+    <div>
+        <h1>{{ section.settings.heading  }}</h1>
+        <p>{{ section.settings.subheading }}</p>
+    </div>
+
+</section>

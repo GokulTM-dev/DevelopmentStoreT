@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "mexico"
+  },
+  "sections": {
+    "header": {
+      "settings": {
+        "color_scheme": "scheme-5",
+        "menu_color_scheme": "scheme-5"
+      },
+      "blocks": {
+        "forms_inline_kGdKG": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": false,
+          "settings": {
+            "paragraph-2a51df801d8fb48de2d3b68eb067e4fe": null,
+            "form_id": "",
+            "header-773553e748c4d253d2df67cdfe49d09b": null,
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "header-1ed3379cffb866f390bac584f8252cde": null,
+            "text_alignment": "center",
+            "header-df706e91f2855b8ef16ccf28af0018c3": null,
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_kGdKG"
+      ]
+    },
+    "174230009790212b10": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "include_margins": true
+      },
+      "blocks": {
+        "judge_me_reviews_featured_carousel_7UjyL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-8d524b02159b1774b1ae2c5a7c351181": null,
+            "maxwidth": 1080,
+            "paragraph-310b1347c49539f89d7369c5bd01ed3c": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_7UjyL"
+      ]
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "174178240311b4e0c0",
+    "174230009790212b10"
+  ]
+}

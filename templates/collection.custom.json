@@ -1,0 +1,32 @@
+{
+    "sections":{
+        "custom-banner": {
+            "type": "custom-banner"
+        },
+        "main": {
+            "type": "main-collection-product-grid",
+            "settings": {
+                "enable_sorting": true,
+                "enable_filtering":true,
+                "products_per_page":12,
+                "image_ratio": "square",
+                "image_fit": "cover",
+                "show_product_vendor": true,
+                "enable_quick_add": true
+            }
+        },
+        "featured-products": {
+            "type": "featured-collection",
+            "settings": {
+                "heading": "Trending Products",
+                "collection": "all",
+                "products_to_show": 4
+            }
+        }
+    },
+    "order": [
+        "custom-banner",
+        "main",
+        "featured-products"
+    ]
+}
